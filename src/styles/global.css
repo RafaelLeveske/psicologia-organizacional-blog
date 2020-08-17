@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  background: #e6eff0;
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smothing: antialiased !important;
+}
+
+input,
+button {
+  outline: 0;
+}
+
+.container {
+  width: 100vw;
+  max-width: 700px;
+}
+
+@media (max-width: 900px) {
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
