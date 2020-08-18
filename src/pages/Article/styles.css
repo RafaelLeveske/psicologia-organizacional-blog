@@ -97,7 +97,7 @@ div.article-page .footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin: 4px 0 4px 0;
+  margin: 4px 0 0px 0;
 
   border: 1px 0 solid #e6ecf0;
   width: 800px;
