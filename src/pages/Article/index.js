@@ -1,12 +1,12 @@
 import React from 'react';
 
-import twitter from '../../assets/images/twitter.svg';
+import medium from '../../assets/images/medium.svg';
 import instagram from '../../assets/images/instagram.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 import mail from '../../assets/images/mail.svg';
 import profile from '../../assets/images/profile.jpeg';
 
-import colorTwitter from '../../assets/images/color-twitter.svg';
+import colorMedium from '../../assets/images/color-medium.svg';
 import colorInstagram from '../../assets/images/color-instagram.svg';
 import colorLinkedin from '../../assets/images/color-linkedin.svg';
 import colorMail from '../../assets/images/color-mail.svg';
@@ -32,7 +32,7 @@ function Article() {
           </div>
           <div className="social-media">
             <a href="/teste">
-              <img src={twitter} alt="Twitter" />
+              <img src={medium} alt="medium" />
             </a>
             <a href="/teste">
               <img src={instagram} alt="Instagram" />
@@ -96,7 +96,7 @@ function Article() {
         </div>
         <div className="social-media">
           <a href="/teste">
-            <img src={colorTwitter} alt="Twitter" />
+            <img src={colorMedium} alt="Medium" />
           </a>
           <a href="/teste">
             <img src={colorInstagram} alt="Instagram" />

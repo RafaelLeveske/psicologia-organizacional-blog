@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import twitter from '../../assets/images/twitter.svg';
+import medium from '../../assets/images/medium.svg';
 import instagram from '../../assets/images/instagram.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 import mail from '../../assets/images/mail.svg';
@@ -22,7 +22,7 @@ function Home() {
           </p>
           <div className="social-media">
             <a href="/teste">
-              <img src={twitter} alt="Twitter" />
+              <img src={medium} alt="Twitter" />
             </a>
             <a href="/teste">
               <img src={instagram} alt="Instagram" />
