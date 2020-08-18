@@ -97,11 +97,10 @@ div.article-page .footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin: 4px 0 0px 0;
 
   border: 1px 0 solid #e6ecf0;
-  width: 800px;
-  background: #FBAEB1;
+  width: 100%;
+  background: #fff;
   padding: 60px 40px 60px 40px;
 }
 
@@ -124,19 +123,19 @@ div.article-page .footer .write-by .description {
 
 div.article-page .footer .write-by .description span {
   font-size: 18px;
-  color: #F3F8FB;
+  color: #292929;
   margin-bottom: 5px;
 }
 
 div.article-page .footer .write-by .description strong {
-  color: #F3F8FB;
+  color:  #292929;;
   font-size: 20px;
   margin-bottom: 5px;
 }
 
 div.article-page .footer .write-by .description p {
   max-width: 400px;
-  color: #F3F8FB;
+  color: #898B8C;
   font-size: 16px;
 }
 
