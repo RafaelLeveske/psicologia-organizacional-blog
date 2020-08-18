@@ -8,8 +8,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="side-content">
-        <img src={logo} alt="Logo" />
-        <strong>Psicologia Organizacional</strong>
+        <a href="/">
+          <img src={logo} alt="Logo" />
+          <strong>Psicologia Organizacional</strong>
+        </a>
       </div>
       <div className="search">
         <input type="text" placeholder="Pesquisar artigo..." />
