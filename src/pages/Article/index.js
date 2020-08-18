@@ -6,6 +6,11 @@ import linkedin from '../../assets/images/linkedin.svg';
 import mail from '../../assets/images/mail.svg';
 import profile from '../../assets/images/profile.jpeg';
 
+import colorTwitter from '../../assets/images/color-twitter.svg';
+import colorInstagram from '../../assets/images/color-instagram.svg';
+import colorLinkedin from '../../assets/images/color-linkedin.svg';
+import colorMail from '../../assets/images/color-mail.svg';
+
 import './styles.css';
 
 function Article() {
@@ -91,16 +96,16 @@ function Article() {
         </div>
         <div className="social-media">
           <a href="/teste">
-            <img src={twitter} alt="Twitter" />
+            <img src={colorTwitter} alt="Twitter" />
           </a>
           <a href="/teste">
-            <img src={instagram} alt="Instagram" />
+            <img src={colorInstagram} alt="Instagram" />
           </a>
           <a href="/teste">
-            <img src={linkedin} alt="Linkedin" />
+            <img src={colorLinkedin} alt="Linkedin" />
           </a>
           <a href="/teste">
-            <img src={mail} alt="Mail" />
+            <img src={colorMail} alt="Mail" />
           </a>
         </div>
       </div>
