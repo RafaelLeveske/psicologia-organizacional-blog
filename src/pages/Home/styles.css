@@ -1,0 +1,128 @@
+div.landing-page {
+  height: 100vh;
+  width: 100vw;
+  margin: 15px auto;
+  padding: 0 50px;
+}
+
+div.landing-page .bio {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6ecf0;
+  width: 800px;
+  background: #fff;
+  padding: 20px 20px;
+}
+
+div.landing-page .bio > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+div.landing-page .bio .info h1 {
+  color: #292929;
+}
+
+div.landing-page .bio .info p {
+  max-width: 500px;
+  margin-top: 15px;
+}
+
+div.landing-page .social-media {
+  display: flex;
+  margin-top: 15px;
+}
+
+div.landing-page .social-media a + a {
+  margin-left: 10px;
+}
+
+div.landing-page .social-media img {
+  width: 15px;
+  height: 15px;
+}
+
+div.landing-page .content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  background: #fff;
+  padding: 20px 20px;
+}
+
+div.landing-page .content .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+div.landing-page .content .description strong {
+  font-size: 20px;
+  color: #292929;
+}
+
+div.landing-page .content .description a {
+  font-size: 14px;
+  color: #898B8C;
+  text-decoration: none;
+}
+
+div.landing-page .content .posts {
+  margin-top: 10px;
+  list-style: none;
+}
+
+div.landing-page .content .posts li {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #e6ecf0;
+  border-radius: 2px;
+  padding: 20px 20px;
+}
+
+div.landing-page .content .posts li + li {
+  border-top: 0;
+}
+
+div.landing-page .content .posts li strong {
+  font-size: 20px;
+  color: #292929;
+}
+
+div.landing-page .content .posts li span {
+  font-size: 14px;
+  color: #898B8C;
+  margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+  div.landing-page {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  div.landing-page .bio {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  div.landing-page .bio > img {
+    margin: 20px 0 20px 0;
+  }
+
+  div.landing-page .bio .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  div.landing-page .content {
+    width: 100%;
+  }
+}

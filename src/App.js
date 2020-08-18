@@ -2,14 +2,16 @@ import React from 'react';
 
 import Header from './components/Header';
 
+import Routes from './routes';
+
 import './styles/global.css';
 
 function App() {
   return (
-    <div className="container">
+    <>
       <Header />
-      <h1>Hello Rafa</h1>
-    </div>
+      <Routes />
+    </>
   );
 }
 
