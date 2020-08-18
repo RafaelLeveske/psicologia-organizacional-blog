@@ -40,8 +40,8 @@ function Home() {
 
       <section className="content">
         <div className="description">
-          <strong>Ultimos posts:</strong>
-          <Link to="/teste">Veja mais</Link>
+          <strong>Últimas postagens:</strong>
+          <Link to="/teste">Veja mais...</Link>
         </div>
 
         <ul className="posts">
