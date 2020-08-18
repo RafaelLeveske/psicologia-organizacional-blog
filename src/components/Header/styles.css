@@ -11,9 +11,10 @@ header.header {
   box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
 }
 
-header.header .side-content {
+header.header .side-content a {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 header.header .side-content img {

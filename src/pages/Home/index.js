@@ -17,8 +17,8 @@ function Home() {
         <div className="info">
           <h1>Tuanne Sousa</h1>
           <p>
-            CTO na Rocketseat, apaixonado por Javascript e pelo ecossistema por
-            volta das tecnologias NodeJS, ReactJS e React native.
+            Psicologa, escritora e pesquisadora especializada em psicologia
+            organizacional.
           </p>
           <div className="social-media">
             <a href="/teste">
@@ -46,37 +46,37 @@ function Home() {
 
         <ul className="posts">
           <li>
-            <Link to="/#">
+            <Link to="/article">
               <strong>Primeiros passos da Psicologia</strong>
               <span>Tuanne Sousa</span>
             </Link>
           </li>
           <li>
-            <Link to="/#">
+            <Link to="/article">
               <strong>Primeiros passos da Psicologia</strong>
               <span>Tuanne Sousa</span>
             </Link>
           </li>
           <li>
-            <Link to="/#">
+            <Link to="/article">
               <strong>Primeiros passos da Psicologia</strong>
               <span>Tuanne Sousa</span>
             </Link>
           </li>
           <li>
-            <Link to="/#">
+            <Link to="/article">
               <strong>Primeiros passos da Psicologia</strong>
               <span>Tuanne Sousa</span>
             </Link>
           </li>
           <li>
-            <Link to="/#">
+            <Link to="/article">
               <strong>Primeiros passos da Psicologia</strong>
               <span>Tuanne Sousa</span>
             </Link>
           </li>
           <li>
-            <Link to="/#">
+            <Link to="/article">
               <strong>Primeiros passos da Psicologia</strong>
               <span>Tuanne Sousa</span>
             </Link>
