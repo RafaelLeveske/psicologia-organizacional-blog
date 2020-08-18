@@ -46,28 +46,40 @@ function Home() {
 
         <ul className="posts">
           <li>
-            <strong>Primeiros passos da Psicologia</strong>
-            <span>Tuanne Sousa</span>
+            <Link to="/#">
+              <strong>Primeiros passos da Psicologia</strong>
+              <span>Tuanne Sousa</span>
+            </Link>
           </li>
           <li>
-            <strong>Primeiros passos da Psicologia</strong>
-            <span>Tuanne Sousa</span>
+            <Link to="/#">
+              <strong>Primeiros passos da Psicologia</strong>
+              <span>Tuanne Sousa</span>
+            </Link>
           </li>
           <li>
-            <strong>Primeiros passos da Psicologia</strong>
-            <span>Tuanne Sousa</span>
+            <Link to="/#">
+              <strong>Primeiros passos da Psicologia</strong>
+              <span>Tuanne Sousa</span>
+            </Link>
           </li>
           <li>
-            <strong>Primeiros passos da Psicologia</strong>
-            <span>Tuanne Sousa</span>
+            <Link to="/#">
+              <strong>Primeiros passos da Psicologia</strong>
+              <span>Tuanne Sousa</span>
+            </Link>
           </li>
           <li>
-            <strong>Primeiros passos da Psicologia</strong>
-            <span>Tuanne Sousa</span>
+            <Link to="/#">
+              <strong>Primeiros passos da Psicologia</strong>
+              <span>Tuanne Sousa</span>
+            </Link>
           </li>
           <li>
-            <strong>Primeiros passos da Psicologia</strong>
-            <span>Tuanne Sousa</span>
+            <Link to="/#">
+              <strong>Primeiros passos da Psicologia</strong>
+              <span>Tuanne Sousa</span>
+            </Link>
           </li>
         </ul>
       </section>
