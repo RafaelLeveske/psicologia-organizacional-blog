@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header">
       <div className="side-content">
         <img src={logo} alt="Logo" />
-        <strong>React Blog</strong>
+        <strong>Psicologia Organizacional</strong>
       </div>
       <div className="search">
         <input type="text" placeholder="Pesquisar artigo..." />

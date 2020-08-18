@@ -17,12 +17,12 @@ header.header .side-content {
 }
 
 header.header .side-content img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 header.header .side-content strong {
-  font-size: 30px;
+  font-size: 25px;
   color: #292929;
   margin-left: 10px;
 }
@@ -49,10 +49,10 @@ header.header .search button {
   height: 40px;
   font-size: 14px;
   font-weight: bold;
-  background: #3bb9e3;
+  background: #FB9A9E;
   color: #fff;
   border-radius: 0 16px 16px 0;
-  border: 1px solid #3bb9e3;
+  border: 1px solid #FB9A9E;
   cursor: pointer;
 
   transition: 0.2s;
