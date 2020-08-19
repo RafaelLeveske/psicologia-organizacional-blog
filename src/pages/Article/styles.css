@@ -195,6 +195,10 @@ div.article-page .footer .social-media img {
     border-radius: 50%;
   }
 
+  div.article-page .footer .write-by .description p  {
+    font-size: 14px;
+  }
+
   div.article-page .footer .social-media {
     margin-top: 40px;
   }
