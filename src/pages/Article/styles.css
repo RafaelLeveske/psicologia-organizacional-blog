@@ -167,8 +167,20 @@ div.article-page .footer .social-media img {
     width: 100%;
   }
 
+  div.article-page .header h1 {
+    font-size: 32px;
+  }
+
+  div.article-page .header h2 {
+    font-size: 16px;
+  }
+
   div.article-page .post {
     width: 100%;
+  }
+
+  div.article-page .post p {
+    font-size: 17px;
   }
 
   div.article-page .footer {
