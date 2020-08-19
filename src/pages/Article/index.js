@@ -20,7 +20,7 @@ function Article() {
         <h1>Um ponto de virada</h1>
         <h2>
           A minha opinião padrão, até aquele momento, era que política é um
-          assunto chato, distante e totalmente inútil.{' '}
+          assunto chato, distante e totalmente inútil.
         </h2>
         <div className="sub-header">
           <div className="profile">

@@ -15,8 +15,9 @@ div.article-page .header {
 }
 
 div.article-page .header h1 {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
   color: #292929;
   margin-bottom: 15px;
 }
@@ -24,6 +25,7 @@ div.article-page .header h1 {
 div.article-page .header h2 {
   font-size: 20px;
   font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
   max-width: 600px;
   color: #898B8C;
   margin-bottom: 30px;
@@ -55,8 +57,8 @@ div.article-page .header .sub-header .profile {
 }
 
 div.article-page .header .sub-header .profile img {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 }
 
@@ -89,7 +91,9 @@ div.article-page .post {
 
 div.article-page .post p {
   max-width: 700px;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 32px;
   color: #292929;
 }
 
