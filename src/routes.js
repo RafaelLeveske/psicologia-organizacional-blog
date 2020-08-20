@@ -1,15 +1,15 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Article from './pages/Article';
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <Switch>
       <Route path="/" exact component={Home} />
-      <Route path="/article" component={Article} />
-    </BrowserRouter>
+      <Route path="/article/:id+" component={Article} />
+    </Switch>
   );
 };
 

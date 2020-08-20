@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import logo from '../../assets/images/logo.svg';
 
 import './styles.css';
@@ -8,10 +10,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="side-content">
-        <a href="/">
+        <Link to="/">
           <img src={logo} alt="Logo" />
           <strong>Psicologia Organizacional</strong>
-        </a>
+        </Link>
       </div>
       <div className="search">
         <input type="text" placeholder="Pesquisar artigo..." />
