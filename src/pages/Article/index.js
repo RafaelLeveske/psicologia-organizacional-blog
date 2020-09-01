@@ -86,8 +86,11 @@ function Article() {
               <img src={profile} alt="Tuanne Sousa" />
               <div className="description">
                 <span>Escrito por:</span>
-                <strong>{user.name}</strong>
-                <p>{user.description}</p>
+                <strong>Tuanne Sousa</strong>
+                <p>
+                  Psicologa, escritora e pesquisadora especializada em
+                  psicologia organizacional.
+                </p>
               </div>
             </div>
             <div key={user.id} className="social-media">

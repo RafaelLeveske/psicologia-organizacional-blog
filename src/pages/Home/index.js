@@ -29,6 +29,7 @@ function Home() {
   useEffect(() => {
     api.get('users').then(response => {
       setUsers(response.data);
+      console.log(response.data);
     });
   }, []);
 
@@ -44,8 +45,11 @@ function Home() {
         return (
           <div key={user.id} className="bio">
             <div className="info">
-              <h1>{user.name}</h1>
-              <p>{user.description}</p>
+              <h1>Tuanne Sousa</h1>
+              <p>
+                Psicologa, escritora e pesquisadora especializada em psicologia
+                organizacional.
+              </p>
               <div className="social-media">
                 <a href={user.firstSocialMediaUrl}>
                   <img src={medium} alt="Medium" />
